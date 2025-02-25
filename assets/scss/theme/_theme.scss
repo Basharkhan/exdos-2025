@@ -138,10 +138,10 @@
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--tp-fonts-poppins);
+  font-family: var(--tp-font-body);
   font-size: 14px;
   font-weight: normal;
-  color: var(--tp-black);
+  color: var(--tp-theme-body-color);
   line-height: 26px;
 }
 
@@ -155,8 +155,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--tp-fonts-muli);
-  color: var(--tp-theme-sec-color);
+  font-family: var(--tp-font-heading);
+  color: var(--tp-theme-heading-color);
   margin-top: 0px;
   font-weight: 700;
   line-height: 1.2;

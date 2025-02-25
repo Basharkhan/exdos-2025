@@ -125,14 +125,10 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Federo&display=swap");
 :root {
-  --tp-theme-color: red;
-  --tp-theme-sec-color: blue;
-  --tp-black: black;
-  --tp-white: white;
-  --tp-grey-color: #f6f6f6;
-  --tp-grey-color-2: #f6f6f6;
-  --tp-grey-color-3: #f6f6f6;
-  --tp-grey-color-4: #f6f6f6;
+  --tp-theme-color-1: #ffe815;
+  --tp-theme-heading-color: #0a0e1a;
+  --tp-theme-body-color: #57595c;
+  --tp-color-white: #fff;
 }
 
 :root {
@@ -150,10 +146,10 @@
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--tp-fonts-poppins);
+  font-family: var(--tp-font-body);
   font-size: 14px;
   font-weight: normal;
-  color: var(--tp-black);
+  color: var(--tp-theme-body-color);
   line-height: 26px;
 }
 
@@ -167,8 +163,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--tp-fonts-muli);
-  color: var(--tp-theme-sec-color);
+  font-family: var(--tp-font-heading);
+  color: var(--tp-theme-heading-color);
   margin-top: 0px;
   font-weight: 700;
   line-height: 1.2;
@@ -3572,10 +3568,6 @@ textarea {
 
 .pr-100 {
   padding-right: 100px;
-}
-
-body {
-  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
